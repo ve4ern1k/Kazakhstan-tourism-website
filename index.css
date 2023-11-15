@@ -1,0 +1,202 @@
+html {
+	height: 100%;
+	white-space: nowrap;
+}
+
+body {
+	background-color: #B1DCF1;
+	position: relative;
+	min-height: 100%;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+header {
+	background-color: #3DB5F1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	border-radius: 0px 0px 25px 25px;
+	z-index: 1;
+}
+
+main {
+	margin-top: 110px;
+	padding-bottom: 250px;
+}
+
+video {
+	width: 50%;
+	border-radius: 25px;
+	display: flex;
+	margin: 0px auto 0px auto;
+}
+
+strong {
+	font-size: 28px;
+	margin-bottom: 10px;
+}
+
+hr {
+	margin: -30px auto 10px;
+	padding: 0;
+	height: 50px;
+	border: none;
+	border-bottom: 1px solid #F07427;
+	box-shadow: 0 20px 20px -20px #FEF343;
+	width: 100%;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 250px;
+	background-color: #3DB5F1;
+	border-radius: 25px 25px 0px 0px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+li {
+	list-style: none;
+}
+
+.headerContainer {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 0.2fr 2fr 0.2fr;
+	grid-template-rows: 1fr;
+	border-radius: 0px 0px 25px 25px;
+}
+
+.headerFlagPiece {
+	height: 96px;
+	margin: 7px 30px;
+}
+
+#slogan {
+	font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+    margin: auto auto;
+    transition: all 700ms ease;
+}
+
+#slogan:hover {
+	color: #FEF343;
+}
+
+.videoContainer {
+	margin: 150px auto 40px auto;
+}
+
+.discriptionContainer {
+	margin: 0px 160px;
+	line-height: 1.75;
+	/*white-space: nowrap;*/
+}
+
+.mainDiscription {
+	margin-bottom: 40px;
+	text-align: center;
+	font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.discription {
+	font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.discriptionGrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	align-items: center;
+	justify-content: center;
+}
+
+.discriptionText {
+	text-align: center;
+	margin: auto 0px;
+}
+
+.discriptionText p {
+	font-size: 22px;
+	margin-top: 0;
+	transition: all 300ms ease;
+}
+
+.discriptionText p:hover {
+	color: #8C3942;
+}
+
+.discriptionImg {
+	width: 90%;
+	display: flex;
+	margin: auto;
+	border-radius: 20px;
+	transition: all 300ms ease;
+}
+
+.discriptionImg:hover {
+	transform: scale(1.03);
+}
+
+.separator{
+	color: #d1c5dc;
+	font-family: "Montserrat";
+	margin: 0px 40px 40px 40px;
+}
+
+.footerContainer {
+	height: 100%;
+	margin: 0px 160px;
+	font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLinks {
+	display: inline-flex;
+	flex-direction: column;
+	margin: auto 0px;
+	padding: 0px;
+}
+
+.footerContacts {
+	text-align: right;
+	display: inline-flex;
+	flex-direction: column;
+	margin: 45px 0px 0px 0px;
+}
+
+.footerElement {
+	padding: 4px 0px;
+}
+
+.anime {
+	transition: all 300ms ease;
+}
+
+.anime:hover {
+	color: #8C3942;
+}
+
+#ownerInfo {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 30px 40px;
+}

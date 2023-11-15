@@ -1,0 +1,175 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-color: black;
+	position: relative;
+	min-height: 100%;
+	margin: 0;
+}
+
+header {
+	background-color: #3DB5F1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	border-radius: 0px 0px 25px 25px;
+	z-index: 1;
+}
+
+main {
+	padding-bottom: 250px;
+	margin-top: 85px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 250px;
+	background-color: #3DB5F1;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+li {
+	list-style: none;
+}
+
+.headerContainer {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 0.2fr 2fr 0.2fr;
+	grid-template-rows: 1fr;
+	border-radius: 0px 0px 25px 25px;
+}
+
+.headerFlagPiece {
+	height: 96px;
+	margin: 7px 30px;
+}
+
+#slogan {
+	font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+    margin: auto auto;
+    transition: all 700ms ease;
+}
+
+#slogan:hover {
+	color: #FEF343;
+}
+
+.bg {
+	display: inline-block;
+	overflow: hidden;
+	width: 100%;
+	opacity: 0.6;
+}
+
+.bg img {
+	transition: 1s;
+	display: block;
+}
+
+.bg img:hover {
+	transform: scale(1.07);
+}
+
+.discription {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 600;
+    color: #EEEEEE;
+    text-align: center;
+}
+
+.discription a {
+	color: #EEEEEE;
+}
+
+#heading {
+	font-size: 32px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#text {
+	font-size: 22px;
+	padding: 20px 0px 50px 0px;
+	line-height: 1.7;
+}
+
+#clownFlex {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+#button {
+	font-size: 26px;
+	padding: 14px 90px;
+	background-color: #3BAFE9;
+	transition: all 300ms ease;
+}
+
+#button:hover {
+	background-color: transparent;
+	border: solid 1px #EEEEEE;
+}
+
+.footerContainer {
+	height: 100%;
+	margin: 0px 160px;
+	font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLinks {
+	display: inline-flex;
+	flex-direction: column;
+	margin: auto 0px;
+	padding: 0px;
+}
+
+.footerContacts {
+	text-align: right;
+	display: inline-flex;
+	flex-direction: column;
+	margin: 45px 0px 0px 0px;
+}
+
+.footerElement {
+	padding: 4px 0px;
+}
+
+.anime {
+	transition: all 300ms ease;
+}
+
+.anime:hover {
+	color: #8C3942;
+}
+
+#ownerInfo {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 30px 40px;
+}
